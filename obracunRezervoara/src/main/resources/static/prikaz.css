@@ -1,0 +1,11 @@
+.container {
+  width: 800px;
+  margin: 400px auto;
+  font-size: 64px;
+  font-weight: bold;
+}
+button {
+  font-size: 32px;
+  padding: 32px 16px;
+  margin: 24px 24px;
+}

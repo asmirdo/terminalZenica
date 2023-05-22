@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/unos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/terminal/terminal"
+        ><button class="btn">Vrati na početnu</button></a
+      >
+      <form action="#" th:action="@{/terminal/obracun3}" th:object="${r2}">
+        <label for="r2">Unesi mjeru R3</label>
+        <input type="text" th:field="*{korisnik}" class="unos" />
+        <button type="submit" class="btn">Izračunaj R2</button>
+      </form>
+    </div>
+  </body>
+</html>

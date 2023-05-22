@@ -1,0 +1,28 @@
+.container {
+  width: 1200px;
+  margin: 200px auto;
+  text-align: center;
+  font-size: 32px;
+}
+.redd {
+  border: 2px solid black;
+}
+.polje {
+  border-right: 4px solid rgb(69, 96, 228);
+  padding: 4px 6px;
+  border-bottom: 4px solid black;
+}
+
+table {
+  border: 5px solid black;
+}
+
+.btn {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.id {
+  color: red;
+  font-weight: bold;
+}

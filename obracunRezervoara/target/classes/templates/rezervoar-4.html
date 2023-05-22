@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/tablice.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rezervoar 4</h1>
+      <table>
+        <thead>
+          <tr>
+            <th class="polje">DM</th>
+            <th class="polje">0cm</th>
+            <th class="polje">1cm</th>
+            <th class="polje">2cm</th>
+            <th class="polje">3cm</th>
+            <th class="polje">4cm</th>
+            <th class="polje">5cm</th>
+            <th class="polje">6cm</th>
+            <th class="polje">7cm</th>
+            <th class="polje">8cm</th>
+            <th class="polje">9cm</th>
+          </tr>
+        </thead>
+        <tbody>
+          <a href="/terminal/terminal"
+            ><button class="btn">Vrati na početnu</button></a
+          >
+          <tr th:each=" r2: ${rezervoar4}">
+            <td th:text="${r2.id}" class="polje id"></td>
+            <td th:text="${r2.nula}" class="polje"></td>
+            <td th:text="${r2.jedan}" class="polje"></td>
+            <td th:text="${r2.dva}" class="polje"></td>
+            <td th:text="${r2.tri}" class="polje"></td>
+            <td th:text="${r2.cetiri}" class="polje"></td>
+            <td th:text="${r2.pet}" class="polje"></td>
+            <td th:text="${r2.sest}" class="polje"></td>
+            <td th:text="${r2.sedam}" class="polje"></td>
+            <td th:text="${r2.osam}" class="polje"></td>
+            <td th:text="${r2.devet}" class="polje"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
